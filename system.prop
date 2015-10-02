@@ -20,3 +20,7 @@ persist.eons.enabled=false
 
 # Set default cdma subscription to RUIM in database
 ro.telephony.default_cdma_sub=0
+
+
+# Add softkeys
+qemu.hw.mainkeys=0
