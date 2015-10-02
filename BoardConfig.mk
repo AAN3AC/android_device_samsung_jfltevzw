@@ -31,3 +31,6 @@ TARGET_OTA_ASSERT_DEVICE := jfltevzw,jflte
 
 # loki
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/jfltevzw/releasetools
+
+BOARD_KERNEL_CMDLINE += selinux=0
+BOARD_KERNEL_CMDLINE += enforcing=0
